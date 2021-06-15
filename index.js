@@ -1,14 +1,16 @@
 // We enclose this in window.onload.
 // So we don't have ridiculous errors.
 window.onload = function() {
-    var firebaseConfig = {
-        apiKey: "AIzaSyD5xqlW6dTcFG1z9nsiT4six3jlJDbQR9E",
-        authDomain: "collabchat-c7bd1.firebaseapp.com",
-        projectId: "collabchat-c7bd1",
-        storageBucket: "collabchat-c7bd1.appspot.com",
-        messagingSenderId: "747494755601",
-        appId: "1:747494755601:web:d2cf8b000fdf482cd310b0"
-      };
+  var firebaseConfig = {
+    apiKey: "AIzaSyA74pKebn9d77jERitMsoMzNiZDy3dLFLc",
+    authDomain: "collabchat-224fb.firebaseapp.com",
+    databaseURL: "https://collabchat-224fb-default-rtdb.firebaseio.com",
+    projectId: "collabchat-224fb",
+    storageBucket: "collabchat-224fb.appspot.com",
+    messagingSenderId: "313597911566",
+    appId: "1:313597911566:web:0eb63efba06a119b38d25f",
+    measurementId: "G-JY5XDCFVK7"
+  };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
     // Initialize Firebase
